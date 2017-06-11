@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# NetBeans environment files
+.DS_store
+nbproject/*
+package-lock.json
