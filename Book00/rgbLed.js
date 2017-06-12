@@ -12,7 +12,8 @@ board.on("ready", function () {
     let green = new five.Led(PIN_LED_GREEN);
     let blue = new five.Led(PIN_LED_BLUE);
     
-    red.blink(MS_100);
-    green.blink(MS_100 * 3);
-    blue.blink(MS_100 * 2);
+    // make purple
+    red.on();
+    green.off();
+    blue.on();
 });
